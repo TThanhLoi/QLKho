@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="9ef80fdc-1e61-4b79-9c0c-237b159db2a3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/Monchann/InsuaranceService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="InsuaranceService.xsd" MetadataType="Schema" ID="01c850a7-5b8f-4442-bfd0-ff9881903dc2" SourceId="1" SourceUrl="http://localhost/Monchann/InsuaranceService.svc?xsd=xsd1" />
+    <MetadataFile FileName="InsuaranceService.disco" MetadataType="Disco" ID="7a73a599-85b3-40cd-8c5d-a2a989f7cba2" SourceId="1" SourceUrl="http://localhost/Monchann/InsuaranceService.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="4ff1cfa4-7593-44e3-87d3-e5f7cac6cfc6" SourceId="1" SourceUrl="http://localhost/Monchann/InsuaranceService.svc?wsdl" />
+    <MetadataFile FileName="InsuaranceService1.xsd" MetadataType="Schema" ID="e70b51dd-3b86-4c92-96eb-6176fe062b68" SourceId="1" SourceUrl="http://localhost/Monchann/InsuaranceService.svc?xsd=xsd2" />
+    <MetadataFile FileName="InsuaranceService2.xsd" MetadataType="Schema" ID="b93c5f5d-61c8-4feb-b80d-3b11a4281665" SourceId="1" SourceUrl="http://localhost/Monchann/InsuaranceService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

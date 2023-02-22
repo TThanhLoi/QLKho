@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfInsuarances.DataContract" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfInsuarances.DataContract" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfImport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Import" nillable="true" type="tns:Import" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfImport" nillable="true" type="tns:ArrayOfImport" />
+  <xs:complexType name="Import">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Beginning_Inventory" type="xs:int" />
+      <xs:element minOccurs="0" name="Ending_Inventory" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Import_Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Import_Price" type="xs:int" />
+      <xs:element minOccurs="0" name="Import_Quantity" type="xs:int" />
+      <xs:element minOccurs="0" name="Note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Product_Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Supplier_Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Total" type="xs:int" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Import" nillable="true" type="tns:Import" />
+</xs:schema>
